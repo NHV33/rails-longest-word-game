@@ -1,2 +1,7 @@
-<%= @word %>
-<%= @result_message %>
+<div class="container results">
+  <h1>Result</h1>
+
+  <p><%= @result_message %></p>
+
+  <%= link_to "Play Again", "/new" %>
+</div>

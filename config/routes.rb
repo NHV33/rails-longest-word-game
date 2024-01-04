@@ -10,6 +10,6 @@ Rails.application.routes.draw do
 
   root to: "games#new"
   get "new" => "games#new"
+  get "score" => "games#new"
   post "score" => "games#score"
-
 end
